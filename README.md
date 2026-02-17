@@ -46,7 +46,7 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 
 
 ### Paper links
-- **OpenReview (ICLR 2026):** https://openreview.net/forum?id=YdK1ZRhrKi&referrer=%5Bthe%20profile%20of%20Ismail%20Lamaakal%5D(%2Fprofile%3Fid%3D~Ismail_Lamaakal1)
+- **OpenReview (ICLR 2026):** https://openreview.net/forum?id=YdK1ZRhrKi
 - **arXiv:** https://arxiv.org/abs/2508.12907
 
 ---
