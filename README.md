@@ -76,6 +76,7 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 > on-the-fly when precomputed sets are unavailable.
 
 ---
+
 ## Repository layout
 
 
@@ -98,6 +99,7 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 ├─ requirements.txt
 └─ README.md
 
+---
 
 ## Citation
 
