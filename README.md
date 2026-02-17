@@ -41,7 +41,6 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 ### Paper links
 - **OpenReview (ICLR 2026):** https://openreview.net/forum?id=YdK1ZRhrKi&referrer=%5Bthe%20profile%20of%20Ismail%20Lamaakal%5D(%2Fprofile%3Fid%3D~Ismail_Lamaakal1)
 - **arXiv:** https://arxiv.org/abs/2508.12907
-- **Local PDF (optional):** place the camera-ready PDF in `paper/` (e.g., `paper/SNAP-UQ.pdf`)
 
 ---
 
@@ -98,3 +97,8 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 ├─ runs/                        # Outputs: logs, CSV/JSON summaries, checkpoints
 ├─ requirements.txt
 └─ README.md
+
+---
+
+## Installation
+
