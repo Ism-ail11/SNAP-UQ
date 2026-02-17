@@ -75,9 +75,9 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 > The scripts in `scripts/preprocess/` help you download/prepare datasets when possible, or generate corruptions  
 > on-the-fly when precomputed sets are unavailable.
 
-
-```md
+---
 ## Repository layout
+
 
 ```text
 .
