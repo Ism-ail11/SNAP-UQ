@@ -77,30 +77,6 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 
 ---
 
-## Repository layout
-
-
-```text
-.
-├─ snapuq/                      # Main library (models, method, losses, eval)
-├─ scripts/                     # Entry points for each section
-│  ├─ preprocess/               # Data preprocessing pipelines
-│  ├─ method/                   # SNAP-UQ training / fitting
-│  ├─ results/                  # Reproduce main paper results
-│  ├─ ablations/                # Run ablation studies
-│  └─ appendix/                 # All appendix experiments
-├─ configs/                     # YAML configs (datasets, models, taps, training, eval)
-│  ├─ datasets/
-│  ├─ models/
-│  └─ experiments/
-├─ tests/                       # Lightweight sanity tests (no dataset downloads required)
-├─ paper/                       # Optional: place PDF here
-├─ runs/                        # Outputs: logs, CSV/JSON summaries, checkpoints
-├─ requirements.txt
-└─ README.md
-
----
-
 ## Citation
 
 If you use **SNAP-UQ** or this codebase in your work, please cite:
