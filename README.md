@@ -75,8 +75,8 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 > The scripts in `scripts/preprocess/` help you download/prepare datasets when possible, or generate corruptions  
 > on-the-fly when precomputed sets are unavailable.
 
----
 
+```md
 ## Repository layout
 
 ```text
@@ -98,20 +98,19 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 ├─ requirements.txt
 └─ README.md
 
----
+
 ## Citation
 
 If you use **SNAP-UQ** or this codebase in your work, please cite:
 
 ```bibtex
 @misc{lamaakal2026snapuqselfsupervisednextactivationprediction,
-      title={SNAP-UQ: Self-supervised Next-Activation Prediction for Single-Pass Uncertainty in TinyML},
-      author={Ismail Lamaakal and Chaymae Yahyati and Khalid El Makkaoui and Ibrahim Ouahbi and Yassine Maleh},
-      year={2026},
-      eprint={2508.12907},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2508.12907},
+  title        = {SNAP-UQ: Self-supervised Next-Activation Prediction for Single-Pass Uncertainty in TinyML},
+  author       = {Ismail Lamaakal and Chaymae Yahyati and Khalid El Makkaoui and Ibrahim Ouahbi and Yassine Maleh},
+  year         = {2026},
+  eprint       = {2508.12907},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2508.12907}
 }
----
 
