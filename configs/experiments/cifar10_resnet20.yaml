@@ -1,0 +1,38 @@
+exp:
+  name: cifar10_resnet20
+
+data:
+  dataset: cifar10
+  root: data
+  num_classes: 10
+  in_channels: 3
+  example_shape: [1, 3, 32, 32]
+
+model:
+  name: resnet20_cifar
+
+train:
+  epochs: 50
+  lr: 0.1
+  batch_size: 128
+  weight_decay: 0.0005
+  num_workers: 2
+
+snapuq:
+  # taps: optional; if omitted, uses backbone defaults.
+  rank: 16
+  alpha: 0.5
+  var_floor: 0.0001
+
+snapuq_train:
+  epochs: 20
+  lr: 0.001
+  batch_size: 256
+  lambda_ss: 1.0
+  lambda_var_l1: 0.0
+
+calib:
+  C: 1.0
+
+eval:
+  batch_size: 256
