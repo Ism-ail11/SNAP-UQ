@@ -98,7 +98,7 @@ This repository provides a clean, end-to-end, **reproducible** codebase for:
 ├─ requirements.txt
 └─ README.md
 
-
+---
 ## Citation
 
 If you use **SNAP-UQ** or this codebase in your work, please cite:
@@ -113,6 +113,5 @@ If you use **SNAP-UQ** or this codebase in your work, please cite:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2508.12907},
 }
-
-
+---
 
